@@ -14,7 +14,7 @@ import MyNewsComponent from "./paths/experiment1";
 import NearbyHospitalsMap from "./paths/map";
 import Jpp from "./paths/mainoutput";
 import DietPlan from "./paths/dietpan";
-import ChatbotPage from "./paths/ChatbotPage";
+import ChatbotPage from "./paths/VoiceChat";
 import DiagnosisPredictor from "./paths/DiagnosisPredictor";
 
 function App() {
