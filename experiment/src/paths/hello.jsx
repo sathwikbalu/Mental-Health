@@ -403,13 +403,13 @@ function Home() {
             fontWeight: "200",
           }}
         >
-          <div>Heart</div>{" "}
-          <div style={{ margin: "0", marginLeft: "20px" }}>
-            <i className="bi bi-heart-pulse  coloranimation"></i>
-          </div>{" "}
-          <div className="" style={{ position: "absolute", left: "290px" }}>
-            Health
-          </div>
+          <div>Mental</div>
+  <div style={{ margin: "20", marginLeft: "60px" }}> {/* Increased margin-left */}
+    {/* <i className="bi bi-heart-pulse coloranimation"></i> */}
+  </div>
+  <div className="" style={{ position: "absolute", left: "290px" }}>
+    Health
+  </div>
         </h1>
         <h3
           style={{
@@ -422,10 +422,10 @@ function Home() {
             fontWeight: "200",
           }}
         >
-          Precaution: Safeguarding Your Future Health
+          Precaution: Safeguarding Your Mental Health
         </h3>
         <Link
-          to="/fillform"
+          to="/"
           style={{
             fontWeight: "200",
             borderRadius: "50px",
@@ -442,7 +442,7 @@ function Home() {
           className="btn"
           type="submit"
         >
-          Health data form
+          Feature1
         </Link>
       </div>
 
@@ -484,7 +484,7 @@ function Home() {
               top: "30px",
             }}
           >
-            Be alert
+            Diary!
           </div>
           <div
             className="text2"
@@ -496,11 +496,10 @@ function Home() {
               left: "20px",
             }}
           >
-            High blood pressure often has no signs. That's why it's called the
-            silent killer. Help stop the silent killer and other causes of heart
-            disease with your gift now.
+            Open the Diary and express your
+            emotions for the day.
           </div>
-          <Link to="/symptompage">
+          <Link to="/">
             <button
               style={{
                 position: "absolute",
@@ -513,7 +512,7 @@ function Home() {
               }}
               className="btn btn-lg"
             >
-              Check your symptoms
+              Open
             </button>
           </Link>
         </div>
@@ -558,16 +557,16 @@ function Home() {
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Know your heart</h5>
+            <h5 className="card-title">PeerPressure</h5>
             <p className="card-text">
-              Get to know about your heart. With our advanced tool
+              Get Started!
             </p>
             <Link
               to="/waterfilloutput"
               className="btn"
               style={{ backgroundColor: "#e11127", color: "aliceblue" }}
             >
-              Get summary
+              Start
             </Link>
           </div>
         </div>
@@ -582,16 +581,16 @@ function Home() {
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">ChatBot</h5>
+            <h5 className="card-title">VoBot</h5>
             <p className="card-text">
-              Chat with our agent for any health issue
+              Start!
             </p>
             <Link
               to="/chatbot"
               className="btn"
               style={{ backgroundColor: "#e11127", color: "aliceblue" }}
             >
-              Let's see
+              Get Started
             </Link>
           </div>
         </div>

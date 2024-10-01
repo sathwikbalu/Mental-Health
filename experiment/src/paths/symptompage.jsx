@@ -158,7 +158,7 @@ function Symptom() {
       </div>
       <div className="symptomdetails" style={{ backgroundColor: 'aliceblue', height: '270px', width: '100%' }}>
         <div className="title" style={{ fontWeight: '400', fontSize: '3rem', position: 'absolute', top: '100px', left: '150px', display: 'inline-block',color:"black" }}>
-          Cardiac arrest, Stroke and other problems
+          Mental Health Problems
         </div>
         <div className="title" style={{ fontWeight: '400', fontSize: '3rem', position: 'absolute', top: '155px', left: '150px', display: 'inline-block',color:"black" }}>
           related to heart symptoms:
